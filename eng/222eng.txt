@@ -1,0 +1,158 @@
+A convolutional neural network-based reviews classification method for explainable recommendations
+Abstract-Recent advances in information filtering have resulted in effective recommender systems that are able to provide online personalized recommendations to millions of users from all over the world.
+However, most of these systems ignore the explanation purpose while producing recommendations with high-quality results.
+Moreover, the classification of reviews given to users as explanations is not fully exploited in previous studies.
+In this paper, we develop a convolutional neural network-based reviews classification method for explainable recommendation systems.
+The convolutional neural network is used to extract the reviews features for predicting whether the reviews provided as explanations are positive or negative.
+Based on such additional information, users can understand not only why certain items are recommended for them but also get support to know the nature of such explanations.
+We conduct experiments on a dataset from Amazon.
+The experimental results show that our method outperforms state-of-the-art methods.
+Keywords—deep learning, convolutional neural network, recommender system, explainable recommendation, classification.
+I. INTRODUCTION
+In many domains, recommender systems nowadays play a vital role in providing personalized recommendations to millions of users worldwide.
+These recommendations include news, books, movies, and many other products generated in accordance with individual users' tastes and preferences.
+In their recommendation mechanism, recommender systems use different data types about the users' activities and behaviors to provide more accurate recommendations that fit their needs [1].
+In the literature, there are many methods to solve the problem related to recommender systems.
+These methods are divided into three categories: content-based recommendation, collaborative filtering, and hybrid recommender system [2][3][4].
+However, most of the systems developed in these three categories tried only to produce a recommendation with highquality results, while they ignored the explanation of such results.
+Recently, a new category of recommender systems with more interesting features called Explainable Recommendation Systems has attracted more attention in this field.
+Explainable recommendations are considered as techniques that can solve the problem related to the question of why a particular item is recommended to a given user.
+Explainable Recommendation Systems aim to address the problem of why certain items or products have been recommended to users by attempting to generate intuitive explanations [5][6].
+On the one hand, they are aiding users to understand the reason behind the obtained recommendation, which can ensure the recommender systems' trustworthiness and transparency.
+On the other hand, they are creating an efficient way to help engineers to better debug the system, guaranteeing the systems' effectiveness and relevance.
+For example, the authors in [7] developed a new effective modelbased trust collaborative filtering for explainable recommendations, which provides recommendations with efficient support for explainable recommendations based on trustworthiness modeling.
+To make the explanation more reliable, researchers have recently applied deep learning techniques to explainable recommendations.
+These techniques [8][9] have achieved great success in many fields in which there are complex problems that have resisted conventional artificial intelligence methods.
+They have been employed to solve the cold start issue [10], to deal with the sparsity problem [11], to apply for dimensionality reduction [12].
+In general, deep learning models are considered as a part of machine learning techniques built on neural networks with specific structures.
+The automatic features extraction in classification tasks can be performed using deep learning models without requiring any algorithm for features extraction [13][14][15].
+One of the most successful deep learning models is called Convolutional neural network (CNN) [16][17].
+Therefore, in this paper, we develop a convolutional neural network-based reviews classification method for explainable recommendation systems.
+The convolutional neural network, originally designed for computer vision, is used to extract the reviews features for predicting whether the reviews provided as explanations are positive or negative.
+Based on such additional information, users can understand not only why certain items are recommended for them but also get support to know the nature of such explanations.
+The rest of the paper is organized as follows: Section II presents the related work.
+Section III covers the convolutional neural network-based reviews classification model in detail.
+Section IV presents the experiments and the analysis of the results.
+Finally, Section V concludes the paper.
+II. RELATED WORK
+As with other fields of information technologies in the last years, recommender systems have significantly been affected by the emergence of deep learning.
+In [18], the authors developed a recommender system based on a deep neural network, called RecDNNing, which can predict the ratings using forward propagation algorithm.
+They suggest using the users and items embeddings with the deep neural network to improve the quality of recommendation following two stages.
+In the first stage, they create dense numeric representations for all users and items.
+While in the second stage, they use the deep neural network to predict the ratings based on the forward propagation algorithm.
+Recently, a new class of recommender systems has emerged that can be referred to as explainable recommendation systems.
+Such systems are equipped with some form of explanatory capability in order to ensure trust and transparency for users.
+Deep learning practices have been successfully applied to the explainable recommendation.
+Gao et al. [19] developed a deep explicit attentive multi-view learning model to improve the recommendation and explainability.
+They formulate the problem as constrained tree node selection and solve it using a dynamic programming algorithm to support the generation of personalized explanations from multi-level features.
+Zarzour et al. [20] presented a way to use a long short-term memory deep learning on Amazon product data to support explainable recommendations for recommender systems.
+The model is able to produce efficient explanations for any rating made by users for any recommended item.
+Ai et al. [21] proposed a knowledge-base embeddings framework for an explainable recommendation.
+A soft matching algorithm is used to provide an explanation of the recommended products.
+The soft matching algorithm is divided to explore the explanation paths that exist between the recommended items and users.
+Chen et al. [22] proposed a solution for a dynamic explainable recommendation by using deep learning to personalize the recommendation and extract the item's properties from the review.
+In [23], Chen et al. proposed a neural attentional method for enhancing the recommender systems' explainability.
+Their method can predict users'ratings for items and provide review-level explanations from a set of reviews.
+Ribeiro et al. [24] proposed an algorithm that can explain the predictions of any classifier in a faithful way.
+They also introduce another algorithm to filter the representative predictions from those redundant and non-representative.
+III. THE CONVOLUTIONAL NEURAL NETWORK-BASED REVIEWS CLASSIFICATION FRAMEWORK
+This paper aims to design a framework enabling users using recommender systems to know in detail the nature of the explanation by classifying the reviews about any recommended item into two predefined categories: positive and negative.
+To ensure an automatic classification of reviews during the recommendation process, we develop a convolutional neural network-based reviews classification method for explainable recommendations.
+The convolutional neural network is utilized to extract the reviews' features to predict their nature.
+One of the advantages of this method is its ability to provide additional information to users to help them understand whether the textual review explaining the reason behind the recommendation is positive or negative.
+Fig.1 illustrates the framework of the model.
+It consists of a review input layer, review embedding layer, convolutional layer, global max-pooling layer, and fully connected layers.
+A. Review input
+To classify the reviews representing explanations attached to items recommended to users, the textual reviews are processed at the word level.
+A review R is a textual natural language of an item I provided to a user U; the model can generate that to serve as reasonable explanations.
+More formally, it is described as a sequence of words defined as: Ri=w0 U w1 U w2 U : U wm-1 , where wj is the (j+1)th word of the review I and m is the size of the review, which corresponds to the number of words in the review.
+After splitting the review into words, the input review gets review vectors and transforms them into a sparse encoding vector.
+This vector contains sequences of integers encoding the review's words to be introduced into the next layer.
+Fig.1.The convolutional neural network-based reviews classification framework.
+B. Review embedding layer
+The embedding layer takes the sparse encoding vector and converts it to the dense embedding data.
+The mechanism of embedding is an efficient way enabling to transform the discrete or categorical variables, which are sparse, into the continuous vectors for constructing new representations with dense descriptions.
+The obtained dense embeddings are grouped in a matrix called a review embedding matrix, where each row in this matrix corresponds to a word embedding in the review.
+C. Convolutional layer
+The review embedding matrix is fed into the convolutional layer with F filters; each one has the size S.
+Any filter has the filter width and height.
+This layer performs the convolution of the features maps from the previous layer based on filters to calculate the output features maps.
+The convolutional layer uses the filter as parameters learned during the training stage while remaining fixed during the tasting stage for all samples.
+D. Global max pooling layer
+The global max-pooling layer is responsible for the dimensionality reduction of features while keeping their most important information for the next layers.
+This benefits the network by reducing the number of parameters and computation.
+The global max-pooling layer gets the resulting feature maps and takes the maximum value over the spatial block.
+Thus, this layer computes the max of the entire input as the output value.
+E. Fully connected layers.
+The fully connected layers are a fundamental part of the model.
+They are used to find the most relevant weights, which are attached to each feature in the review.
+The binary classification decision is then made based on these weights in the final layer with the sigmoid activation function.
+IV. EXPERIMENTS
+To evaluate the performance of our proposed model, experiments are conducted. 
+The experiment platform is a laptop with Intel Core i7-8550U CPU @ 1.80GHz × 8, 8GB memory, and Ubuntu 18.04 LTS as an operating system. 
+We used a well-known dataset called Toys and Games from Amazon (http://jmcauley.ucsd.edu/data/amazon/).
+With Amazon Toys and Games, each user can write one or more reviews about the product they purchased.
+This dataset includes 166180 reviews about 11924 products from Amazon made by 17692 reviewers, where each of the anonymous users and items has k reviews.
+In our context, only the reviews with less than 100 characters long are considered.
+In the pre-processing phase, we labeled any product with 1 or 2 stars as negative and any product with 4 or 5 stars as positive.
+The product with 3 stars is left out.
+Then, we randomly divided the dataset into a training set and a testing set with a split ratio of 0.2.
+To explore the effects of the activation functions used in the convolution layer on the proposed model's performance, four activation functions are considered: ReLU (Rectified Linear Unit), Tanh (Hyperbolic tangent), Softplus, and Softsign.
+It is noted that the ReLU non-linear activation function is the widely used activation function in deep learning due to its simplicity of calculation.
+We experimented with different variations of the model.
+- CNN-RC-ReLU is the model with ReLU as the activation function in the convolution layer.
+- CNN-RC-Tanh is the model with Tanh as the activation function in the convolution layer.
+- CNN-RC-Softplus is the model with Softplus as the activation function in the convolution layer.
+- CNN-RC-Softsign is the model with Softsing as the activation function in the convolution layer.
+Furthermore, we compared these methods with the following two baseline methods.
+- Gaussian Naive Bayes (GNB) [25] is a supervised algorithm based on Bayes' theorem, which enables to use of predictor variables to classify given observations into predefined classes.
+-Linear Discriminant Analysis (LDA) [26] is another supervised algorithm used in machine learning with a linear decision boundary.
+It is employed to classify observations if the classes are known a priori.
+Table 1 shows the training accuracy and testing accuracy of all compared methods.
+In terms of training accuracy, we can observe that CNNRC-Softplus provides the best results among all of them on the Toys and Games Amazon dataset.
+It significantly outperforms the three other CNN-RC with the Softsign, Tanh, ReLu as well as Softsign, Tanh, ReLu as well as the state-ofthe-art methods GNB and LDA.
+GNB gives the worst results.
+In terms of testing accuracy, we can see that CNN-RCReLU, CNN-RC-Tanh, CNN-RC-Softplus, CNN-RCSoftsign, and LDA achieves the best performance on the Toys and Games Amazon dataset and all of them outperform GNB.
+Fig.2 and 3 show that CNN-RC methods based on different activation functions significantly outperform on the dataset, indicating the importance of using CNN as a review classifier in an explainable recommendation.
+Moreover, the use of various activation functions in the convolution layer for CNN-RC does not affect the testing accuracy, but its influence is clearly observed in the training accuracy.
+One explication could be due to the size of the used dataset.
+Thus, CNN-RCSoftplus gains the best combination between the training accuracy and testing accuracy against the rest of the methods.
+One interesting result is applying many activation functions could lead to the choice of the most appropriate one.
+TABLE I. THE TRAINING ACCURACY AND TESTING ACCURACY OF THE METHODS
+Fig. 2. The training accuracy of the methods. 
+Fig. 3. The testing accuracy of the methods.
+V. CONCLUSION
+In this paper, we developed a framework based on a convolutional neural network with the ability to classify the textual reviews into positive and negative classes to be used in explainable recommendation systems.
+With such characteristics, the proposed model was able to provide to users using recommender systems additional information allowing them to obtain more detail about the nature of justifications suggested by the system.
+The dataset Toys and Games from Amazon was used to assess the effectiveness of the proposed method, as well as the effects of different activation functions on the model's performance was evaluated and compared with two baseline methods.
+CNN-RC-Softplus achieved the most satisfactory result in terms of training accuracy and testing accuracy.
+There are several opportunities for further study.
+The framework could be extended to take into consideration images and video.
+Another opportunity is to perform a series of experiments on other big datasets in order to analyze the feasibility of the framework.
+REFERENCES
+[1] H. Zarzour, Z. Al-Sharif, M. Al-Ayyoub, and Y. Jararweh, "A new collaborative filtering recommendation algorithm based on dimensionality reduction and clustering techniques," in 2018 9th International Conference on Information and Communication Systems (ICICS). IEEE, 2018, pp. 102–106. 
+[2] S. Raza and C. Ding, "Progress in context-aware recommender systems — An overview," Computer Science Review, vol. 31, pp. 84–97, Feb. 2019. 
+[3] F. Maazouzi, H. Zarzour, and Y. Jararweh, "An Effective Recommender System Based on Clustering Technique for TED Talks,"International Journal of Information Technology and Web Engineering, vol. 15, no. 1, pp. 35–51, Jan. 2020
+[4] H. Zarzour, F. Maazouzi, M. Soltani, and C. Chemam, "An improved collaborative filtering recommendation algorithm for big data," in IFIP International Conference on Computational Intelligence and Its Applications. Springer, 2018, pp. 660–668.
+[5] Y. Lin, P. Ren, Z. Chen, Z. Ren, J. Ma, and M. de Rijke, "Explainable Outfit Recommendation with Joint Outfit Matching and Comment Generation," IEEE Transactions on Knowledge and Data Engineering, vol. 32, no. 8, pp. 1502–1516, Aug. 2020.
+[6] J. Ni, J. Li, and J. McAuley, "Justifying Recommendations using Distantly-Labeled Reviews and Fine-Grained Aspects," Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 2019.
+[7] H. Zarzour, Y. Jararweh and Z. A. Al-Sharif, "An Effective ModelBased Trust Collaborative Filtering for Explainable Recommendations," 2020 11th International Conference on Information and Communication Systems (ICICS), Irbid, Jordan, 2020, pp. 238-242
+[8] I. Goodfellow, Y. Bengio and A. Courville, . Deep learning. MIT press, 2016.
+[9] Y. LeCun, Y. Bengio, and G. Hinton, "Deep learning," Nature, vol. 521, no. 7553, pp. 436–444, May 2015.
+[10] J. Wei, J. He, K. Chen, Y. Zhou, and Z. Tang, "Collaborative filtering and deep learning based recommendation system for cold start items,"Expert Systems with Applications, vol. 69, pp. 29–39, Mar. 2017.
+[11] H. Wang, N. Wang, and D.-Y. Yeung, "Collaborative Deep Learning for Recommender Systems," Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining - KDD '15, 2015.
+[12] B. Saravanan, V. Mohanraj, and J. Senthilkumar, "A fuzzy entropy technique for dimensionality reduction in recommender systems using deep learning," Soft Computing, vol. 23, no. 8, pp. 2575–2583, Feb. 2019.
+[13] L. Mou, L. Bruzzone, and X. X. Zhu, "Learning Spectral-SpatialTemporal Features via a Recurrent Convolutional Neural Network for Change Detection in Multispectral Imagery," IEEE Transactions on Geoscience and Remote Sensing, vol. 57, no. 2, pp. 924–935, Feb. 2019.
+[14] W. Zhao and S. Du, "Spectral–Spatial Feature Extraction for Hyperspectral Image Classification: A Dimension Reduction and Deep Learning Approach," IEEE Transactions on Geoscience and Remote Sensing, vol. 54, no. 8, pp. 4544–4554, Aug. 2016.
+[15] H. Liang, X. Sun, Y. Sun, and Y. Gao, "Text feature extraction based on deep learning: a review," EURASIP Journal on Wireless Communications and Networking, vol. 2017, no. 1, Dec. 2017.
+[16] M. Sarıgül, B. M. Ozyildirim, and M. Avci, "Differential convolutional neural network," Neural Networks, vol. 116, pp. 279–287, Aug. 2019.
+[17] S. Kulshrestha, "What Is A Convolutional Neural Network?,"Developing an Image Classifier Using TensorFlow, 2019.
+[18] H. Zarzour, Z. A. Al-Sharif, and Y. Jararweh, "Recdnning: a recommender system using deep neural network with user and item embeddings," in 2019 10th International Conference on Information and Communication Systems (ICICS). IEEE, 2019, pp. 99–103.
+[19] J. Gao, X. Wang, Y. Wang, and X. Xie, "Explainable Recommendation through Attentive Multi-View Learning," Proceedings of the AAAI Conference on Artificial Intelligence, vol. 33, pp. 3622–3629, Jul. 2019.
+[20] Zarzour, Y. Jararweh, M. M. Hammad and M. Al-Smadi, "A long short-term memory deep learning framework for explainable recommendation," 2020 11th International Conference on Information and Communication Systems (ICICS), Irbid, Jordan, 2020, pp. 233- 237.
+[21] Q. Ai, V. Azizi, X. Chen, and Y. Zhang, "Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation,"Algorithms, vol. 11, no. 9, p. 137, Sep. 2018.
+[22] X. Chen, Y. Zhang, and Z. Qin, "Dynamic Explainable Recommendation Based on Neural Attentive Models," Proceedings of the AAAI Conference on Artificial Intelligence, vol. 33, pp. 53–60, Jul. 2019.
+[23] C. Chen, M. Zhang, Y. Liu, and S. Ma, "Neural Attentional Rating Regression with Review-level Explanations," Proceedings of the 2018 World Wide Web Conference on World Wide Web - WWW '18, 2018.
+[24] M. T. Ribeiro, S. Singh, and C. Guestrin, "" why should i trust you?"explaining the predictions of any classifier," in Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining, 2016, pp. 1135–1144.
+[25] G.H. John and P. Langley, "Estimating continuous distributions in Bayesian classifiers," arXiv preprint arXiv:1302.4964, 2013.
+[26] R. Fu, Y. Tian, T. Bao, Z. Meng and P. Shi, "Improvement motor imagery EEG classification based on regularized linear discriminant analysis," Journal of medical systems, vol. 43, 6, pp.169, 2019.

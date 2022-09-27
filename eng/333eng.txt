@@ -1,0 +1,124 @@
+A Brief Analysis on the Application and Influence of Computer Big Data in Management Accounting
+Abstract. In the years after 2015, big data and industry 4.0 words often appear in news and websites.
+These two words have become concepts that everyone knows.
+The popularity of their topics is rising rapidly.
+Under the influence of computer technology, manage-accounting is also expanding to the direction of information[1] .
+In order to provide a variety of reference for the decision-making of enterprise management, enterprises should use the information in various information systems to carry out data mining.
+In this case, the enterprise can get the important manage-accounting information.
+In this research direction, the application and influence of computer big data in manage-accounting is far-reaching and important.
+Keywords: Big Data, Manage-accounting
+1. Introduction
+In today's era background, the growth rate of the network information we are in daily contact with has far exceeded the growth rate of the world economy.
+In proper principle, the growth rate of computer data processing capacity has exceeded the world economic growth rate by three times.
+The acceleration of data processing speed also promotes the emergence of the main application of manage-accounting.
+In order to bring rich resources to enterprises, effective use of data and improve the level of management is the inevitable phenomenon of the transformation of manage-accounting.
+In recent years, people have gradually found the main advantages of big data system under computer technology.
+It can turn information into a shared carrier.
+This carrier can integrate various forms of resources in society.
+These resource forms can better meet the main needs of consumers.
+manage-accounting is an immature field of accounting in China[2] .
+Its development in China has been restricted in many aspects.
+These limitations include incomplete data and unreliable data.
+In this case, scholars have been studying the means of future development in the field of manage-accounting.
+It is found that the reference of big-data can effectively promote the application of manage-accounting in the production process.
+These applications will also have a profound impact on it.
+2. The main characteristics of computer big-data technology
+The vocabulary of big data is an important information concept we often hear.
+At present, it is a new computer technology.
+It can apply cloud computing to data mining.
+It can even turn the integration of data into a fully shared mode of data.
+In this mode, the application of big-data makes people get more accurate, reliable and extensive data.
+2.1. Various forms of data and the combination of accounting and financial data
+In the characteristics of the era of computer big-data, there are all sorts of message that can be collected and stored.
+With the support of traditional informational technology, the information collected by the network is more objective and reliable.
+However, the information that can not be well recorded is also difficult to be collected by the system [3].
+In the area of manage-accounting, the adoption of big-data technology makes it easier to obtain non-financial information.
+The acquisition of financial data information becomes very simple.
+2.2. The sources of data have become more extensive
+According to the above tips, we can understand that the data mining function of cloud computing is very powerful.
+Computer big data can change cloud computing data into digital form and store it in computer equipment.
+According to a lot of practice, we can find that the use of cloud processing technology can greatly reduce the difficulty and cost of information collection.
+In the course of collecting old data, due to the incompatibility of technology, the message survey of sampling technology has a relatively large error form.
+Today, the use of computer big data can well solve this problem (see Figure 1).
+Figure 1. The combination of big data and management accounting
+2.3. The scope of data sharing has been expanded
+Due to the improvement of comprehensiveness and flexibility of information acquisition, the scope of data sharing has been expanded.
+In the same situation, the actual application of data calculation also needs a large range of data sharing as the main basic technology.
+Through the establishment of a wide range of information system, much data can be collected and stored.
+This situation is also the main advantage of expanding the scope of data sharing.
+3. The main characteristics of the development of manage-accounting
+Manage-accounting and financial accounting are the two main components of the accounting part of an enterprise.
+Financial accounting pays more attention to the calculation, recording and data processing of accounting work.
+Manage Accounting combines accounting and management effectively.
+It can make use of accounting information to make management decisions.
+Therefore, manage-accounting pays more attention to management.
+Compared with financial accounting, the development of manage-accounting is immature.
+The problems encountered in the process of its development are also very complex.
+3.1. The development of manage-accounting pays more attention to theory than practice
+In fact, the beginning of manage-accounting in China is very late.
+The time and depth of the research we have invested in it is short.
+According to the investigation of a large number of documents, the research of manage-accounting in our country mainly focuses on the theoretical stage.
+Because the actual financial environment of enterprises is different and complex, it is difficult to find an appropriate experimental stage for theoretical knowledge in the practical application of manage-accounting.
+Therefore, many theoretical hypotheses can not be confirmed.
+3.2. The system in the field of manage-accounting is incomplete
+In the main process of the development of manage-accounting in China, we have been learning from the corresponding system standards of foreign manage-accounting.
+However, we still haven't got innovative and substantial breakthroughs.
+We also have not a complete and unified standard system to establish the corresponding manage-accounting system.
+This also explains why the progress of manage-accounting industry in China is slow.
+3.3. The implementation is very difficult and lack of attention
+Due to the influence of computer information technology and management theory, manage-accounting has not been paid attention to in enterprises.
+In order to implement the main functions of manage-accounting in enterprises, enterprises generally need to collect a lot of information.
+This information includes financial information and non-financial information.
+However, the collection of information is complex and difficult.
+In this case, the implementation of manage-accounting will become more difficult.
+On the other hand, some small and medium-sized enterprises in China do not pay attention to the practical problems of manage-accounting theory.
+4. Application of computer big data in manage-accounting
+4.1. Application in sales activities
+There are many kinds of information about sales activities that are entered into the computer system.
+They include customer information, commodity information and calculation information.
+At the same time of information input, the big data analysis platform will also screen and analyze relevant data.
+Big data technology can make use of the work function of manage-accounting to present various analysis reports.
+These analysis reports can help managers make management decisions.
+The impact of these decisions mainly includes four aspects.
+They are the guiding role of the market, the precise marketing of users, the credit policy of customers and the evaluation policy of sales performance (see Table 1).
+Table 1. Investigation on the application and influence of computer big data in manage-accounting
+4.2. The application of enterprise inventory management
+As mentioned above, big data technology can realize the sharing and integration of purchasing business and financial information.
+By collecting the relevant information of purchasing suppliers, combined with the requirements of enterprise management, manage-accounting technology can build the corresponding supplier cost evaluation model [4].
+Enterprises can analyze the quality and cost of purchasing activities according to the model.
+Managers can directly judge whether the purchasing activities can be carried out smoothly.
+In fact, the reference value of the evaluation model is infinite.
+4.3. Application of cost control
+The job of accounting is financial control.
+As a part of financial control, cost control is also a very important enterprise internal financial structure.
+The manage-accounting technology based on big data technology can calculate the output of the actual cost of a project by collecting the problems of capital turnover and material procurement of enterprises.
+According to the pre-determined cost control principle, managers can carry out appropriate cost control according to the output of cost calculated by computer.
+5. The influence of computer big data in manage-accounting
+5.1. It will increase the basis of accounting information in decision-making of manage-accounting
+In practice, the important reason why manage-accounting is difficult to be applied is that it is very difficult to obtain comprehensive information.
+The emergence of computer big data solves this problem very well.
+The comprehensive and complete financial data and non-financial data provided by big data technology can provide convenience for consumers and managers [5].
+5.2. It provides an accurate model basis for the application of manage-accounting in forecast analysis
+Forecasting is an important part of the function of manage-accounting.
+It can forecast the sales and cost according to certain statistical methods through the old data.
+However, there are many defects in traditional forecasting methods.
+Although it can greatly save the cost, it will reduce the accuracy and reliability of the prediction results.
+In the forecasting function of manage-accounting supported by big data technology, the accuracy of prediction results is very high.
+5.3. The sharing of big data makes the budget more effective
+Comprehensive budget refers to all aspects of the enterprise's future sales and production activities reflected in the process of enterprise's goal based on prediction and decision-making.
+Comprehensive budget can help enterprises to organize and coordinate specific production and operation activities in the production cycle.
+Comprehensive budget includes cost budget and capital turnover budget[6] .
+There is no doubt that these two forms of budget are the main part of the function of manage-accounting.
+At the same time, the introduction of computer big data technology has accelerated the speed of comprehensive budget.
+They also help companies save a lot of time.
+6. Conclusion
+At present, all walks of life are mining various resources of big data technology to a great extent.
+With the deepening of people's research, the application scope of computer big data technology in the field of manage-accounting is also gradually expanded.
+Effective use of computer big data technology, enterprises can quickly improve the management level of manage-accounting and enterprise market competitiveness.
+References
+[1] Qingwei H . Application and Research of Computer Big Data in Internet Learning[J]. Audio Engineering, 2018.
+[2] Tan Y , Shi Y , Tang Q . [Lecture Notes in Computer Science] Data Mining and Big Data Volume 10943 || Influence of the Management of the Innovation in the Business Performance of the Family Business: Application to the Printing Sector in Colombia[J]. 2018, 10.1007/978-3-319-93803-5(Chapter 33):349-359.
+[3] Han Y , Gan J . Application and Influence of Big Data in the Logistics Industry—Take Cainiao Network as an Example[C]// International Conference on Transportation Engineering. 0:2141-2144.
+[4] Qinghua R , Bin L , Polytechnic J E . Application and Research of Computer Big Data in Internet Learning[J]. China Computer & Communication, 2019.
+[5] Lin L , Shuang W , Yifang L , et al. A New Idea of Study on the Influence Factors of Companies' Debt Costs in the Big Data Era[J]. Procedia Computer ence, 2014, 31:532-541.
+[6] Lin D . Research on the Information Construction of Accounting Audit Based on the Big Data of Computer[J]. International Journal of Information Technology and Web Engineering (IJITWE), 2017, 12(3):74-82.

@@ -1,0 +1,116 @@
+Security Assessment Process of IT-components for Cloud Infrastructure
+Abstract-nowadays, the attention has increased significantly on the IT-components security, including the assessment of multiple types of objects using cloud infrastructure.
+The article discusses the opinions of Russian and foreign experts on a wide range of issues of IT-security as stand-alone IT-components and holistic cloud services.
+The article proposes a practical approach based on the "Hybrid" methodology using formal assessment procedures based on two cardinalities of criteria: the assessment of management systems compliance degree (based on ISO/IEC 27001 series) and the assessment of functional safety requirements (based on IEC 61508 series and ISO/IEC 15408 series).
+The proposed method allows to obtain the traceability results of ITsecurity risk assessment of cloud IT-components in the given constraints.
+Sufficient and correctly implemented countermeasures minimize the risk (residual risk) for significant assets.
+These results can be applied to the processes of an independent assessment, including critical infrastructure, with the required accuracy of calculation.
+Keywords—management system; risk; information technology; IT-security; audit; standard; expertise; assessment
+I. INTRODUCTION
+In recent years, the number of IT-security threats has increased significantly, and in this regard, the little-studied problem of operational assessment of IT-security for various objects of critical information infrastructure (CII) is becoming particularly relevant [1] - [3].
+Obviously, this is also true for it components that are hosted or planned to be hosted in the cloud [4] - [11].
+It is necessary to determine exactly whether this is a new marketing move to promote an "innovative" product or a new process for managing IT-services.
+Accordingly, the problem of evaluation for CII objects should be solved in accordance with the established requirements, as well as using appropriate processes that allow performing IT-security audits of the required IT-components at the appropriate levels, including at the Software level [12].
+In contrast to the well-known Zero Trust and Zero Trust extended models, in which additional safety functions (SF) are "superimposed" on existing IT-components, it is proposed to consider the set of such IT-components in the CII as a new entity (proposed by A.
+Neklyudov) - an Information processing system (IPS) [13].
+In this case, it becomes possible for the commercial success of cloud services to optimize costs by using already existing and practically used SF as part of IPS.
+For cloud components, an effective solution is to evaluate the initial security level in IT-components due to the existing IPS architecture and resulting from a combination of IT-components and SF.
+Based on the evaluation results, it is possible to make a reasonable and objective decision on the implementation of new and/or additional SF.
+II. EXISTING SOLUTION ANALYSIS
+An important aspect for business customers is the provision of guarantees to ensure a given level of IT-security for various types of IT-components [10]. 
+In particular, insufficient control over granting access (and revocation of access rights) to various types of cloud storage of sensitive corporate data may be problematic. 
+A number of reviews show a constant increase in efforts to develop policies for management systems and create a secure network architecture, as well as to ensure the ability to quick integration [14]. 
+The analytical review "Rise of Legitimate Services for Backdoor Command and Control" notes: "Attacks are carried out through breach in the defense, which mainly appears in connection with the expansion of the Internet of things and the use of cloud services".
+It should be noted that any IT can act both as a business tool and as a weapon against it, if they have not passed the security assessment process in accordance with the established procedure. 
+This assumption has been confirmed in the Cisco report [15]: "Attackers are getting better at avoiding obstacles and using cloud services and other technologies used for legitimate purposes as weapon". 
+In this case, the following factors are used to counteract this attack that uses legitimate services, for example: frequent exchange of certificates with legitimate services. 
+But unfortunately, no ideas and examples of practical implementation have been proposed, as this can be reliably proved and practically ensured. 
+There are enough negative examples and results of such helplessness in the technical literature. 
+The issues of measuring and monitoring the security of IT-components are discussed in the SANS report [16] "Common and Best Practice for Security Operation Centers Result of the 2019 SOC Survey". 
+In particular, let’s consider a number of "barriers" that prevent the creation of effective Security Operation Centers (SOC).
+The Cisco report [15] provides an example that about 57% are hosted in the cloud, because of the higher level of data protection. 
+However, part of the critical infrastructure may remain under the management of its own IT (IT-security) services in the future. 
+According to the report "IT Key Metrics Data 2019" (Gartner), fully corporate data centers will not disappear, and some companies will place critical business processes on premise (see Fig. 1).
+Fig. 1. Forecast of reduction of own Data Centers (Garther data)
+For the purposes of this publication, it is important that such companies (approximately 20%) are very concerned about providing the necessary level of security for their own business processes and is not ready to trust cloud providers under any agreements (SLA). 
+These data will be a good starting point for forming a research task and analyzing possible solutions to the problem.
+III. PROBLEM ESTABLISHING
+As shown in [1], [13], the problems of obtaining a "conformity assessment" (in the wording of ISO/IEC standards) in a particular subject area can be solved if the following examinations are available (see Table 1):
+TABLE I. TYPES OF EXAMINATIONS
+A problem with wording – propose a new process for security evaluating of IT-components that provides quantitative assessments that can be independently verified.
+We see that the vast majority of projects in the field of creating IT-security pass the examination of the IE, and only a few demonstrate the results of passing the TE. 
+This thesis, expressed earlier [12], [13], can be confirmed by the available up-to-date data: in particular, the report "Cloud Security Alliance" [2] shows that organizations that implement security in the Software Development Lifecycle (SDL) initially demonstrate the best results in providing IT-security. 
+It should be noted that ISO/IEC 15408 can be used not only for the "pole"of the TE, but also for the "pole" of the CE.
+IV. THE PROBLEM OF TRANSFERRING CRITICAL ITCOMPONENTS TO THE CLOUD
+There is a well-known practice in which all critical ITcomponents are transferred to the cloud, following the promises of consulting projects and trying to "magically" reduce all risks and financial costs at once. 
+There is a problem based on the misconception of some representatives both IT and IT-security services that when transferring all IT-components to the cloud, it will help ensure high security and ease of management at once, while drastically reducing costs. 
+Objectively, this misconception is only the tip of the iceberg, because the actual reality is often hidden from decision-makers. 
+In fairness, it should be noted that certain measures are taken when transferring IT-components (possibly critical IT- systems). 
+Let’s talk about a new entity – IT-security continuous monitoring, which allows to provide the necessary certification. 
+It is also noted that the overall conformity assessment, as established by ISO, allows for "a set of processes that demonstrate products, services, or systems that meet the requirements of the standard". 
+A similar interpretation is contained in the Program Review for Information Security Assistance (PRISMA), developed by the National Institute of Standards and Technology (NIST) [20].
+V. EVALUATION OF CLOUD SERVICES
+As a result of the proposed "hybrid methodology" for assessing the level of IT-security, business receives documentary evidence of the sufficiency and correctness of countermeasures (see ISO/IEC 27001). 
+The sufficiency of countermeasures is determined in measured units SF, compared with TB (see ISO/IEC 15408). 
+The correctness of countermeasures is determined in the measured units - the requirements for trust in security and the requirements for the IT-security management. 
+Sufficient and correct countermeasures ensure that the risk (residual risk) for assets is minimized, so, in this way, "trust through evaluation" is achieved. 
+This process provides reproducible and objective evidence of IPS evaluation that can be presented for verification to an independent group of properly qualified appraisers. 
+Products and services that include IT, that have passed an independent security assessment have undeniable competitive advantages. 
+If necessary, it can be evaluated in any testing laboratory that meets the requirements of ISO/IEC 17025 "General requirements for the competence of testing and calibration laboratories".
+Consider the following example of a description of a cloud service in the "hybrid methodology" notation (see Fig. 2).
+Fig. 2. Example of a cloud service in the "Hybrid” methodology notation
+Unification of the description in comparison with the "classic" on premise IPS is obvious – common conditional elements, common notation and description are used. 
+The only difference can be certain additional R (L) that host (plan to host) cloud services. 
+This example shows that in L4, several critical processes (P5 – P7) of IPS are located in a single R4.1, which are accessed via secure channels (the pair of TB1.1 and TB 4.1, respectively, in R1. 1 and R 4.1). 
+Note that this pair can be implemented as a VPN in practice, and even with a backup (wired main channel and satellite backup, for example), but the description of the IPS and the essence of performing the "evaluation through trust" do not change from this. 
+Also note that the business customer can take into account their own reasons when designing secure access to cloud services. 
+For example, a single access to the provider with only one external channel (TB 1.1 and TB 4.1 pair), implementing internal communications on their own and according to their own regulations – for example, TB 1.6 and TB 3.1 pairs with TB 1.4 and TB 2.1 pairs.
+But the business customer controls only the "own" TB (TB 1.2, TB 1.1, TB 1.5, TB 2.2, and TB 3.2) via "their" TB (in particular, EE1.1, EE1.2, EE1.3, EE2.1, and EE3.1), but is forced to trust the provider of cloud services in terms of providing secure access to "others" EE4.1, its 4.2, EE4.3, and EE4.4. 
+Even assuming that all specified EE4.
+* "equipped" with a sufficient number of effective TB sets, should consider a compliance assessment system in R4.1 (L4), for example, in the established audit procedure [21] – [23]. 
+When evaluating risks of IPS for the Ri area, the formula (1) can be applied:
+where: Rapr i – a priori risk assessment for the Ri area
+V(k)ij– a priori probability of implementing the j-threat of the Ri area
+S(n)ij– a priori value of damage j-threat Ri area
+V max – the maximum value of the probability of threats
+S max – the maximum a priori damage the implementation of threats
+k – Maximum probability value (quantitative assessment)
+n – Maximum damage value (quantitative assessment)
+Restrictions are set when calculating using the formula (1): 
+Table 2 shows an example of calculating the risks for the IT-component of IPS, shown in Fig. 2, placed in R4.1 (L4). 
+The most significant threats (based on the results of the earlier analysis) were selected (based on Annex "C" of ISO/IEC 27005), which can be expected for each of the 4 areas (Ri) in the full set of considered locations (L). 
+The probability values (V) are in the range (0;1), the damage value (S) is in the range (0;3), the values of Rj (for a single threat) and Rapr i (General) are in the range (0;1). 
+The risk acceptance criterion for this particular example (Rcr) is defined as 10%.
+TABLE II. EXAMPLE OF CALCULATION
+There are some explanations on calculation of individual risks to specific threats Rj. 
+The threat of a "criminal use" (for example, in an accounting process) the probability of the threats defined by V(1)4 = 0,05, the level of damage is S(3)4 = 3 (maximum) that the formula (1) at V max = 1 and S max = 3 allows to determine the value of risk R4 = 0,05. 
+It can be noted that the probability (V(1)4) 5% was obtained earlier on the basis of statistics in a number of projects, and the same data was later presented in the Cisco report [15], i.e. all these raw data can be verified reliably and independently.
+By analogy, implementation risks for other threats can be calculated and ranked in descending order (see Table 2), and collectively, taking into account the excess (Rj > Rcr), the total a priori risk for this example is 25%:
+VI. CONCLUSION
+The article deals with the problem of forming the process of IT-security evaluation as an important stage in the overall process of ensuring the security of IT-components in cloud systems. 
+To solve this problem, a "Hybrid” methodology is proposed, based on modern risk-oriented ISO/IEC 27001 and 15408 series standards, and other standards for evaluating functional safety and auditing management systems. 
+Using the "Hybrid” methodology allows to get calculated results in the process of IT-security level evaluating of IT-components in the restrictions of placement and composition with the required accuracy.
+REFERENCES
+[1] Livshits I. I., Neklyudov A.V. Application of hybrid methodology in the assessment of information technology security for complex industrial facilities. Menedzhment kachestva. [Quality Management]. 2018, No. 1., Pp. 48-61 (in Russian).
+[2] Six Pillars of DevSecOps. Available at: https://cloudsecurityalliance.org/artifacts/cloud-security-complexity, 2019 (Accessed 28.04.2020).
+[3] Bandyopadhyay T, Liu D, Mookerjee VS, Wilhite AW. Dynamic competition in it security: A differential games approach. Information Systems Frontiers. 2014, 16(4), Pp. 643-661
+[4] Malladi A., Potluri S. A study on technologies in Cloud-based design and manufacturing. International Journal of Mechanical and Production Engineering Research and Development. 2018, V. 8, N 6, Pp. 187-192.
+[5] Souri A., Rahmani A.M., Navimipour N.J. Formal verification approaches and standards in the Cloud computing: A comprehensive and systematic reviews. Computer Standards & Interfaces. 2018, V. 58, Pp. 1- 22.
+[6] Yin C., Lv H., Cui Z., Li T., Liu Y., Wang J., Cheng L. BD Code: An Erasure Code algorithm for big data storage system. Journal of University of Science and Technology of China, 2016, V. 46, N 3, Pp. 188-199.
+[7] Bologa R., Lupu A.-R., Boja C., Georgescu T.M. Sustaining employability: A process for introducing Cloud computing, big data, social networks, mobile programming and cybersecurity into academic curricula. Sustainability. 2017, V. 9, N 12, P. 2235.
+[8] Kobayashi N., Kume S., Lenz K., Masuya H. Riken metadatabase: A database platform for health care and life sciences as a microcosm of linked open data cloud. International Journal on Semantic Web and Information Systems. 2018, V. 14, N 1, Pp. 140-164.
+[9] Manoj Kumar M., Nandakumar A.N. Exploring multilateral Cloud computing security architectural design debt in terms of technical debt. Smart Innovation, Systems and Technologies. 2018, V. 78, Pp. 567-579.
+[10] Jun Z. A security architecture for Cloud computing alliance. Recent Advances in Electrical and Electronic Engineering. 2017. V. 10. N 3. Pp. 195-201.
+[11] Goyal T., Rathi R., Jain V.K., Pilli E.S., Mazumdar A.P. Big data handling over Cloud for internet of things. International Journal of Information Technology and Web Engineering. 2018, V. 13, N 2, Pp. 37-47.
+[12] Livshits I. I., Neklyudov A.V. Hybrid method of information technology security assessment. Avtomatizatia v promushlennosti. [Automation in industry]. 2017, No. 7, Pp. 36-41 (in Russian).
+[13] Livshits I. I., Neklyudov A.V. Hybrid method of information technology security for critical energy facilities. Energobezopastnost’ i Energosberezhenie. [Energy Security and energy saving]. 2017, No. 4, Pp. 5-11 (in Russian).
+[14] By Jon Oltsik. Available at: https://www.csoonline.com/article/3406475/must-have-features-in-amodern-network-security-architecture.html, 2019 (accessed 28.04.2020).
+[15] Threats are rising. Available at: cisco.com/c/m/en_au/products/security/offers/cybersecurityreports.html, 2019 (accessed 28.04.2020).
+[16] State of Application Security: Balancing Speed and Risk. Available at: https://www.sans.org/reading-room/whitepapers/analyst/2017-stateapplication-security-balancing-speed-risk-38100, 2019 (accessed 01.05.2020).
+[17] Supply chain attack. Available at: https://www.cloudav.ru/mediacenter/news/business-risks-supply-chainattacks, 2019 (accessed 28.04.2020).
+[18] Zero Trust redefines security in a perimeter-less world. Available at: https://www.mobileiron.com/en/solutions/zero-trust, 2019 (accessed 28.04.2020).
+[19] 5 Key Findings from Forbes Insights’ 2019 Cybersecurity Survey. Available at: https://www.vmware.com/radius/forbes-insightscybersecurity-strategy-report, 2019 (accessed 28.04.2020).
+[20] Results for algorithms submitted to NIST in late 2018. Available at: https://www.nist.gov/programs-projects/face-recognition-vendor-testfrvt-1n-2018-evaluation, 2019 (accessed 28.04.2020).
+[21] Livshits I. Methods of optimization of the audit program of Integrated Management Systems. Trudy SPIIRAN. [Proceedings of SPIIRAS]. 2016, No. 5, Pp. 52-68 (in Russian).
+[22] Livshits I. Information Security Management System according to International Standards. Menedzhment kachestva. [Quality Management]. 2011, No. 9, Pp. 6-11 (in Russian).
+[23] Livshits I. Design, creation and implementation of complex Information security systems based on ISO/IEC 27001:2005. Telekommunikacii. [Telecommunications]. 2010, No. 4, Pp. 49-51 (in Russian).

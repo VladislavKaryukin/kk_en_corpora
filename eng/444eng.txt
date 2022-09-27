@@ -1,0 +1,175 @@
+Service Plan of Service Composition in Pervasive Computing: A Systematic Literature Review
+Abstract- Service composition made by arranging set of services to achieve specific goals from user task.
+The steps taken in building service composition are obtained from the service life cycle, consisting of definition, selection, deployment, and execution phase.
+Service composition is more complicated in pervasive computing since service is created by a simple task deployed in distributed devices.
+The devices in the pervasive environment can be a service itself.
+Several challenges are faced in making service composition in pervasive computing, such as limited system knowledge and resource, unpredictable service availability, and heterogeneity.
+Hence, it requires service plan that can mapping user requests containing the planning goal and the composition corresponds to the plan.
+This planning process is carried out by the transformation of user requirements and business processes.
+In this paper, we adopt systematic literature review (SLR) and define some research question (RQ) to research in various database journal.
+Twentytwo articles were selected based on the search result and then reviewed.
+We extracted and summarized service composition using planning approach and find the implementation area in pervasive computing.
+Keywords—service composition, service plan, pervasive computing 
+I. INTRODUCTION
+Service composition is a component that has an important role in service.
+Based on its life cycle, service composition process consists of four sequential phases, starting with definition phase, selection phase, deployment phase and execution phase [1].
+The definition phase in the service composition life cycle needs to define user requirement and preference.
+User requirements in service composition are divided into functional requirements (FR) and non-functional requirements (NFR).
+The FR transformation method is done by modelling business processes into the format that can be read by machine.
+This machine-readable method aims to describe the behaviour and processes between single service.
+In general, the methodology for transformation in can be use available standard, e.g.
+Business Process Execution Language (BPEL) [2], WSDL (Web Service Definition Language) [3].
+It uses semantic technology that can change FR into input, output and precondition into certain formulations.
+Whereas NFR is in the form of Quality of Service (QoS) such as Availability, Efficiency, Flexibility, Portability, Integrity, Performance, Reliability, Reusability, Robustness, Scalability, and Usability.
+Due to the complexity of the problem in the service composition, sufficient knowledge is needed for the human or machine that will process it.
+Generally, a simple service composition can be solved manually or semiautomatic that requires human intervention [4].
+This method is prone to errors and has not been able to resolve scalability in the system.
+Transforms user requirement into definitions that can be understood by machines is one of challenge in service composition.
+Besides that, implementation in pervasive computing that has heterogeneous characteristics grow exponentially.
+To solve this problem, other research proposes automatic service composition with various approach.
+For example, [5] propose a decentralized heuristic planning algorithm as a solution that implement goal-oriented planning to provide automatic service composition.
+Research by [6] proposed framework called FASEM (Framework for Ambient Services and Events Monitoring) to provide an automatic and dynamic services monitoring when an event occurs in an ambient environment.
+Service can be arranged and composed from more than one component services - such as Internet of Thing (IoT) device - which are spread over the internet and have heterogeneous structure in pervasive computing.
+Sensing capabilities on IoT devices can generate services within the environment.
+This requires special treatment in the formation of service composition that can provide added value service.
+Designing a suitable service plan is the key point to achieve this.
+We use systematic literature method as part of preliminary research on service plans of service composition in pervasive computing.
+Service plan can be used to overcome the problem of adaptation of user requirements including integrate heterogeneity in pervasive environment.
+The rest of this article structured as follows.
+Section 2 explains the research methodology to get the overview of service plan and service composition using systematic literature review, while the literature review results are presented in Section 3.
+Finally, Section 4 concludes and discuss research to be carried out in the future.
+II. METHODOLOGY
+This paper using systematic literature review (SLR) methodology to identify, categorize, and summarizing the previous researches.
+Research question (RQ) in this SLR needs to be answered to complete this paper.
+Kitchenham [7] presented guideline that will be user in this paper.
+According to the guideline, it has three main activities: planning, conducting, and documenting.
+The SLR process begins with formulating research questions, followed by a search for primary studies based on predetermined criteria.
+The collected articles are then filtered and assessed for quality.
+The result is a final article that will be analyzed and synthesized to answer each research question.
+TABLE I. RESEARCH QUESTION (RQ)
+A. Planning The Review
+This review retains focused on identifying research question (RQ). 
+The goal of the review is to answer each research question as listed in Table I. 
+To answer the question in the Table I, the study define keywords that can be used as specific query string on database journal. 
+The query string is ("service composition") AND ("plan" OR "planning" OR "scheme" OR "scenario") AND ("pervasive" OR "ubiquitous" OR "ambient") from 2015- July 2020. 
+Main study were filtered to identify service plan that researcher proposed in service composition and answer the first research question (RQ1). 
+Then case implementation that researcher use were extracted to answer RQ2 questions. 
+Furthermore, remain research problem that researcher want to solve were extracted to answer RQ3 questions.
+B. Conducting The Review
+To answer the research questions, we need strategy to search the primary paper that need to analyze.
+We search the primary paper by construct query string dan define scope in different digital libraries.
+The query strings and search scope are shown in Table II.
+We also apply the inclusion and exclusion criteria listed in Table III.
+There are four inclusion criteria (I1, I2, I3, I4) and three exclusion criteria (E1, E2, E3) that determine whether the previous study is relevant or not to be selected in the review.
+Suitable candidate paper can be found by applying inclusion and exclusion criteria for further investigation.
+First, we apply query string and scope that we construct before and apply filtering E2.
+We found 655 unique papers.
+Then, we filtered by specified year (I4) and only journal paper (E1) and get 55 candidate papers.
+After that, we examine abstract paper to search relevant paper and apply filtering I1 and I3.
+After performing this step,23 articles found.
+Lastly, we search fulltext access using criteria I3 and E3.we get 22 suitable paper.
+See Fig.1 to understand the process of literature review.
+TABLE II. QUERY STRING AND SEARCH SCOPE
+TABLE III. INCLUSION AND EXCLUSION CRITERIA
+Fig. 1. Outline of the selection process
+We also use Quality Assessment Checklist (QAC) [8].
+A set of quality assessment questions as criteria used to assess quality of selected articles from systematic review using four criteria.
+We evaluate each article using criteria in Table IV.
+There are four possible scores for each question: not mentioned at all (0), little mentioned (1), adequately addressed (2) and completely addressed (3).
+Averages were calculated from each attribute.
+An article is categorized as good if it has a score of 2,5 - 3.0, medium if it has a score of 1.75 - 2,25 and is categorized as low if the score is below 1,5.
+The results of the assessment criteria from primary studies shown in Table V.
+The results from Table V show that from the 22 selected articles, 59% (n=13) articles are in the good category, while the rest (n=9) categorized as fair, and no one articles categorized as low.
+Distribution of primary paper between 2015 - July 2020 are shown in Fig.2.
+It shows that the topic of service composition is still being researched with developments grow in pervasive technology and in other domains.
+TABLE IV. QUALITY ASSESSMENT CRITERIA
+TABLE V. QUALITY SCORES FOR ALL SELECTED PRIMARY STUDIES
+C. Documenting The Review
+This review goals to analyze the studies on service plan on service composition in pervasive computing.
+This review is set aside about the presence of biases in choosing the studies.
+We search the title of all published papers in journals through automatic search provided by database journals, not by manual reading.
+This means that this review may have excluded some flaw of software prediction papers from some database journals.
+III. RESULT
+A. Service Plan
+Service composition generate encapsulation set of services that provide operation from business process to satisfy user's requirement.
+Service plan of service composition is user task that need to formalize into planning domain to get the optimum execution of service composition.
+To answer RQ1, we collect information of plan that being used are shown in Table VI.
+Research result showed that most of the previous work solved the problem by modelling service plan in AI planning based.
+Broadly speaking, service plans in service composition can be classified into two groups: workflowbased planning and AI-based planning.
+Their main difference is that planning based on workflow is semi-automatic whereas planning based on AI can be fully automated.
+The workflowbased approach is based on the similarity of the service composition process to the business process in a workflow system.
+Several previous studies used a workflow-based service plan approach, as in [3], where the workflow process is presented as an acyclic directed graph with data flow and controls description that can be seen in Fig 3.
+The workflow describes two scenarios, where a user in the home environment can turn on the air conditioner if the room temperature (pre-conditions) exceeds 26 degrees Celsius, this is done by setting the Number service to a certain value, for example 21 degrees and then send the notification to user mobile phone The second workflow runs a scenario to send certain text messages if he is in a location around the house.
+Generally, service composition is required by people with high technical knowledge such as service designers or service developers, however study in [9] focused on service composition for end-users, where the service plan used is workflow-based planning.
+One problem when using workflow-based planning is that it requires extensive domain knowledge.
+They use SCRAM (scenario-based requirements analysis method) in overcoming technical knowledge gaps to capture requirements and find out what components can be carried out in a service composition.
+Research related to service plans with graph-based planning has been found in previous studies.
+Research in [10] proposes a service composition mechanism for opportunistic networks, where services are depicted in a graph.
+The nodes in the graph represent connected devices.
+Each device can provide several services.
+The connected device is described as a node connected to an edge which has a cost consisting of two variables, namely temporal distance, and loads.
+They use a multi-hop forwarding to find the best route for sending the results to the requester.
+Research in [24] also uses graph-based planning, called the Q-Graphplan, is a model for automatic service composition by considering QoS to achieve goal-state.
+After the complete graph is formed, the search for the optimum solution is carried out using the A* algorithm.
+The composition plan with logic-based planning uses a set of rules and constraints.
+Research conduct in [20] using a genetic algorithm in determining the ideal number of workers who can complete the crowdsource task as an implementation of the service composition using three variables as constraint, namely cost, reliability and response time.
+The result of this algorithm is to display a collection of worker candidates who have successfully completed the crowdsourced task including the distance and reliability of each candidate worker.
+Service composition with planning as satisfiability means express the planning problem as reasoning problem which can be solved by algorithms.
+Research in [21] using Constraint Satisfaction Problem (CSP) technique to determine whether a given set of services satisfy consistency rules and how well the service given satisfy user requirements.
+Meanwhile, research by [2] uses a heuristic approach to assigning services to multiple mobile devices that are associated with multiple smart objects in an IoT environment using a graph-coloring algorithm.
+B. Case Implementation
+Various case implementation has been used in the primary research.
+Considering RQ2, Table VII show us case implementation that being used by researcher.
+Several previous studies related to service composition have tried to solve problems in areas related to mobility.
+For example, in [12] trying to solve the challenge of selecting a service on service composition with a mobile device that is constantly moving.
+The usual traditional QoS-aware is not sufficient to produce the desired service because service invocation performance is unpredictable and location-based.
+They used a mobility-aware approach by creating a mobility model that consists of two parts: the user's path and the quality of the mobile network, while they use a teaching-learning-based optimization algorithm in the service selection process.
+This is a similar problem defined by [23], but the researcher proposes a multi-strategy service selection in the form of a utility function which consists of two things: location-based and time-based.
+Using this utility function, the researcher is possible to estimate the delay and the success rate of transmission between users and service providers Smart Home is one implementation area that is widely used in research on service composition.
+Various examples of applying service composition such as collaborative home security [15][21] and setting the ambient conditions automatically (home automation) using several scenarios [11][2][6][17].
+Various IoT devices connected to Smart Home have service capabilities that can be provided.
+Collaborative security leverages the capabilities of these devices to create security controls that meet both security and non-security requirements.
+Home automation is done by creating a set of rules that can trigger actions in the form of services executed by various devices, such as assistant robots, display devices, sensors, and other smart devices.
+There are several studies on service composition in the communication implementation area.
+Research in [13] attempts to solve the problem of threats by malicious nodes on a mobile ad hoc network (MANET).
+Nodes as service providers can carry out threats such as self-promotion, opportunistic service, bad-mouthing attacks, ballot stuffing attacks, or packet dropping which results in decreased quality of service received.
+Researchers use a multidimensional trustbased service composition and service binding algorithm approach to build a trust metric which consists of two keys: competence and integrity.
+C. Remain Research Problems
+There have been some remain research problem in service plan model of service composition.
+In the past work, researcher still have interest to resolve problem in integrating service [18], learning ability [13], data quality problem [19], considering QoS attributes [11][5], and concerning energy consumption [12].
+Considering RQ3, remain research problem in service plan of service composition in pervasive computing is considering QoS attributes the most problem researcher want to be solved.
+IV. CONCLUSION AND FUTURE WORK
+Service plan of service composition in pervasive computing still being studied continuously to improve service composition to get optimum QoS.
+In the previous work, various method has been developed to modeling service plan of service composition.
+We conduct systematic literature review to get the state of the art of service composition in pervasive environment.
+AI Planning-based are the most widely used by previous research as planning technique with the aim of making automatic service composition.
+We are also identified several areas for future work.
+We will inspect the impact of QoS on service composition.
+We are also developing a service plan that transforms the functional requirements of the business process into a machine-readable form that can be used in service compositions to achieve a goal-tree.
+REFERENCES
+[1] Q. Z. Sheng, X. Qiao, A. V. Vasilakos, C. Szabo, S. Bourne, and X. Xu, “Web services composition: A decade’s overview,” Inf. Sci. (Ny)., vol. 280, pp. 218–238, 2014.
+[2] I.-Y. Ko, H.-G. Ko, A. J. Molina, and J.-H. Kwon, “SoIoT: Toward A User-Centric IoT-Based Service Framework,” ACM Trans. Internet Technol., vol. 16, no. 2, pp. 1–21, Apr. 2016.
+[3] R. Francese, M. Risi, G. Tortora, and M. Tucci, “Visual Mobile Computing for Mobile End-Users,” IEEE Trans. Mob. Comput., vol. 15, no. 4, pp. 1033–1046, 2016.
+[4] H. Tong, J. Cao, S. Zhang, and M. Li, “A distributed algorithm for web service composition based on service agent model,” IEEE Trans. Parallel Distrib. Syst., 2011.
+[5] N. Chen, N. Cardozo, and S. Clarke, “Goal-Driven Service Composition in Mobile and Pervasive Computing,” IEEE Trans. Serv. Comput., vol. 11, no. 1, pp. 49–62, Jan. 2018.
+[6] A. Yachir, Y. Amirat, A. Chibani, and N. Badache, “Event-aware framework for dynamic services discovery and selection in the context of ambient intelligence and internet of things,” IEEE Trans. Autom. Sci. Eng., vol. 13, no. 1, pp. 85–102, Jan. 2016.
+[7] B. Kitchenham, O. Pearl Brereton, D. Budgen, M. Turner, J. Bailey, and S. Linkman, “Systematic literature reviews in software engineering - A systematic literature review,” Information and Software Technology. 2009.
+[8] T. Dybå and T. Dingsøyr, “Empirical studies of agile software development: A systematic review,” Information and Software Technology. 2008.
+[9] A. Ridge and E. O’Neill, “Establishing requirements for End-user Service Composition tools,” Requir. Eng., vol. 20, no. 4, pp. 435–463, Nov. 2015.
+[10] U. Sadiq, M. Kumar, A. Passarella, and M. Conti, “Service composition in opportunistic networks: A load and mobility aware solution,” IEEE Trans. Comput., vol. 64, no. 8, pp. 2308–2322, 2015.
+[11] J. Siebert, J. Cao, Y. Lai, P. Guo, and W. Zhu, “LASEC: A Localized Approach to Service Composition in Pervasive Computing Environments,” IEEE Trans. Parallel Distrib. Syst., vol. 26, no. 7, pp. 1948–1957, 2015.
+[12] S. Deng, L. Huang, D. Hu, J. L. Zhao, and Z. Wu, “Mobility-Enabled Service Selection for Composite Services,” IEEE Trans. Serv. Comput., vol. 9, no. 3, pp. 394–407, 2016.
+[13] Y. Wang, I. R. Chen, J. H. Cho, A. Swami, and K. S. Chan, “TrustBased Service Composition and Binding with Multiple Objective Optimization in Service-Oriented Mobile Ad Hoc Networks,” IEEE Trans. Serv. Comput., vol. 10, no. 4, pp. 660–672, Jul. 2017.
+[14] S. Chattopadhyay, A. Banerjee, and N. Banerjee, “A fast and scalable mechanism for web service composition,” ACM Trans. Web, vol. 11, no. 4, Aug. 2017.
+[15] G. Desolda, C. Ardito, and M. Matera, “Empowering end users to customize their smart environments: Model, composition paradigms, and domain-specific tools,” ACM Trans. Comput. Interact., vol. 24, no. 2, Apr. 2017.
+[16] R. Ben Lamine, R. Ben Jemaa, and I. A. Ben Amor, “Formal specification of adaptable semantic web services composition,” Int. J. Inf. Technol. Web Eng., vol. 13, no. 4, pp. 14–34, Oct. 2018.
+[17] C. F. Liao and H. Y. Fu, “Spatial-aware service management in a pervasive environment,” Serv. Oriented Comput. Appl., vol. 12, no. 2, pp. 95–110, 2018.
+[18] D. Mascitti, M. Conti, A. Passarella, L. Ricci, and S. K. Das, “Service Provisioning in Mobile Environments through Opportunistic Computing,” IEEE Trans. Mob. Comput., vol. 17, no. 12, pp. 2898– 2911, Dec. 2018.
+[19] F. Montori, L. Bedogni, and L. Bononi, “A Collaborative Internet of Things Architecture for Smart Cities and Environmental Monitoring,” IEEE Internet Things J., vol. 5, no. 2, pp. 592–605, Apr. 2018.
+[20] X. Peng et al., “Crowdservice: Optimizing mobile crowdsourcing and service composition,” ACM Trans. Internet Technol., vol. 18, no. 2, 2018.
+[21] P. Bellavista, A. Corradi, L. Foschini, and S. Monti, “Improved Adaptation and Survivability via Dynamic Service Composition of Ubiquitous Computing Middleware,” IEEE Access, vol. 6, pp. 33604– 33620, May 2018.
+[22] A. Bennaceur, T. T. Tun, A. K. Bandara, Y. Yu, and B. Nuseibeh, “Feature-Driven Mediator Synthesis: Supporting Collaborative Security in the Internet of Things,” ACM Trans. Cyber-Physical Syst., vol. 2, no. 3, pp. 1–25, Jul. 2018.
+[23] N. Le Sommer, Y. Mahéo, and F. Baklouti, “Multi-strategy dynamic service composition in opportunistic networks,” Inf., vol. 11, no. 4, Apr. 2020.
+[24] Z. Wang, B. Cheng, W. Zhang, and J. Chen, “Q-Graphplan: QoSAware Automatic Service Composition with the Extended Planning Graph,” IEEE Access, vol. 8, pp. 8314–8323, 2020.
+[25] E. Aghamohammadzadeh, M. Malek, and O. F. Valilai, “A novel model for optimisation of logistics and manufacturing operation service composition in Cloud manufacturing system focusing on cloudentropy,” Int. J. Prod. Res., vol. 58, no. 7, pp. 1987–2015, Apr. 2020.
+[26] M. C. Chiu and C. H. Tsai, “Design a personalised product service system utilising a multi-agent system,” Adv. Eng. Informatics, vol. 43, Jan. 2020.
