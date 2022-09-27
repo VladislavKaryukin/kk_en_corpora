@@ -1,0 +1,10 @@
+@software{leo_donny_2022_7115097,
+  author       = {Vladislav Karyukin},
+  title        = {{The Kazakh - English parallel corpora}},
+  month        = sep,
+  year         = 2022,
+  publisher    = {Zenodo},
+  version      = {v1},
+  doi          = {10.5281/zenodo.7115097},
+  url          = {https://doi.org/10.5281/zenodo.7115097}
+}
